@@ -374,11 +374,16 @@ console.log(`${baseurl}/Signupcustomer`, {
                 <span className="ml-2">Login</span>
               </div>
             )}
-            <Button
-              title="Add Property"
-              btn="btn"
-              icon={<FaArrowLeftLong className="rotate-[150deg] ml-2" />}
-            />
+     
+
+<Link href="https://admin.ever4uproperties.com/builder/login" target="_blank">
+<Button
+  title="Add Property"
+  btn="btn"
+  onClick={() => window.open("https://admin.ever4uproperties.com/builder/login", "_blank")}
+  icon={<FaArrowLeftLong className="rotate-[150deg] ml-2" />}
+/>
+    </Link>
           </div>
         </div>
 
