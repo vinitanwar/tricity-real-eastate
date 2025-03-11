@@ -493,7 +493,7 @@ const SlugComponent = async ({ slug }) => {
 
 
           <div className="  hidden w-[10%] lg:block  ">
-              <div className="flex flex-col gap-[13rem]">
+              {/* <div className="flex flex-col gap-[13rem]">
                 <div
                   className="rightArrow w-16 h-16 flex items-center cursor-pointer  justify-center border rounded-full  hover:bg-black hover:text-white border-black text-4xl"
                   onClick={handlePrevSlideBottom}
@@ -506,7 +506,7 @@ const SlugComponent = async ({ slug }) => {
                 >
                   <IoIosArrowForward />
                 </div>
-              </div>
+              </div> */}
             </div>
 
           </div>
