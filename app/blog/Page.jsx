@@ -8,7 +8,7 @@ import { storageLink } from "../constants";
 import Link from "next/link";
 import ContactForm from "../components/ContactForm";
 
-const Page = () => {
+const page = () => {
   const monthNames = [
     "January",
     "February",
@@ -24,16 +24,14 @@ const Page = () => {
     "December",
   ];
 
-  const dispatch = useDispatch();
-  const state = useSelector((state) => state.blog);
-  const [blogData, setblogData] = useState();
 
-  useEffect(() => {
-    dispatch(getblog());
-  }, []);
-  useEffect(() => {
-    setblogData(state.data);
-  }, [state]);
+
+  const dispatch=useDispatch()
+  const state=useSelector(state=>state.blog)
+  const [blogData,setblogData] = useState()
+
+useEffect(()=>{dispatch(getblog())},[])
+useEffect(()=>{setblogData(state.data)},[state])
 
   return (
     <div>
@@ -98,7 +96,8 @@ const Page = () => {
 </form> */}
             <div className="sticky top-20  xl:w-5/6 m-auto   bg-white p-6 shadow-2xl rounded-2xl ">
               {" "}
-              <ContactForm />
+              {/* <ContactForm /> */}
+              <ContactForm/>
             </div>
           </div>
         </div>
