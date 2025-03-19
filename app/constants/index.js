@@ -7,12 +7,7 @@ export const navLink = [
       href: '/',
       Key: 'home'
     },
-    {
-      id: 1,
-      label: 'Listing',
-      href: '/projects',
-      Key: 'listing'
-    },
+    
     {
       id: 2,
       label: 'Property',
@@ -26,7 +21,7 @@ export const navLink = [
       Key: 'blog'
     }
   ];
-  export const apiLink = 'https://admin.ever4uproperties.com/api/v1'
+  export const apiLink = 'https://prakarsh123.in/api/v1'
   export const storageLink = 'https://realeastetbucket.s3.eu-north-1.amazonaws.com'
 
   // /storage/$

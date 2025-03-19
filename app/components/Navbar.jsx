@@ -376,11 +376,11 @@ console.log(`${baseurl}/Signupcustomer`, {
             )}
      
 
-<Link href="https://admin.ever4uproperties.com/builder/login" target="_blank">
+<Link href="https://prakarsh123.in/builder/login" target="_blank">
 <Button
   title="Add Property"
   btn="btn"
-  onClick={() => window.open("https://admin.ever4uproperties.com/builder/login", "_blank")}
+  onClick={() => window.open("https://prakarsh123.in/builder/login", "_blank")}
   icon={<FaArrowLeftLong className="rotate-[150deg] ml-2" />}
 />
     </Link>

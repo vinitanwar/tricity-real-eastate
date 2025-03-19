@@ -133,7 +133,7 @@ export default function Hero() {
   }, [searchTerm, cities]);
 
   // const citiesSs = citiesData.map(city => ({ name: city }));
-  let MineCitiy = 'https://admin.ever4uproperties.com/storage'
+  let MineCitiy = 'https://prakarsh123.in/storage'
   return (
     <>
       <div className="flex justify-center flex-col relative items-center ">
